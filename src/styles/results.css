@@ -1,0 +1,43 @@
+.result {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: silver;
+  color: black;  
+  max-width: 350px;
+  min-height: 100vh;
+  margin: 0px auto;
+  text-align: center;  
+}
+
+.result h1 {
+  padding: 15px 0 0 0;
+}
+
+.result h2 {
+  margin-bottom: 10px;
+}
+
+.result .detail {
+  display: block;
+  border: 1px solid black;
+  text-align: left;
+}
+
+.resultItem {
+  margin: 10px;
+}
+
+.resultItem label {  
+  margin-left: 15px;  
+}
+
+.result .resultQuestion {
+  display: flex;
+  flex-direction: row;  
+}
+
+.result .button {
+  margin-top: 10px;
+  font-size: 24px;    
+  background-color: silver;  
+  color: blue;
+}

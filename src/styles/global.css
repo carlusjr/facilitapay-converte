@@ -1,0 +1,55 @@
+.app {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: silver;
+  color: black;
+  height: 100vh;
+  max-width: 350px;
+  margin: 0px auto;
+  display: flex;  
+  flex-direction: column;  
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.app h1, h3{
+  margin-top: 20px;
+}
+
+.app h2 {
+  font-weight: 300;  
+}
+
+.app .button {
+  margin-bottom: 25px;
+  font-size: 26px;    
+  background-color: silver;  
+  color: blue;
+}
+
+.app .button a {
+  text-decoration: none;
+}
+
+.app .question {
+  border: 1px solid black;
+  width: 300px;
+  padding: 20px;
+}
+
+.app .answer label {
+  margin-right: 10px;
+}
+
+.app .navigator {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;  
+}
+
+.app .navigator button {
+  font-size: 20px;
+  padding: 5px;
+  width: 120px;
+}
+
