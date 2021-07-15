@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="app">
 
-      <div>
+      <div className="title">
         <h1>Welcome to the</h1>
         <h1>Trivia Challenge!</h1>
       </div>

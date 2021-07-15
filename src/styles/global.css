@@ -12,7 +12,15 @@
   text-align: center;
 }
 
+.app .title {
+  margin-top: 40px;
+}
+
 .app h1, h3{
+  margin-top: 10px;
+}
+
+.app h3{
   margin-top: 20px;
 }
 
@@ -21,7 +29,7 @@
 }
 
 .app .button {
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   font-size: 26px;    
   background-color: silver;  
   color: blue;
@@ -44,7 +52,7 @@
 .app .navigator {
   display: flex;
   flex-direction: row;
-  margin-bottom: 20px;  
+  margin-bottom: 50px;  
 }
 
 .app .navigator button {

@@ -86,8 +86,8 @@ export default function Quiz() {
   return (
     <div className="app">
 
-      <div>
-        <h3>{quiz[index].category}</h3>
+      <div className="title">
+        <h1>{quiz[index].category}</h1>
       </div>
 
       <div className="question">
